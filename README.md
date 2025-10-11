@@ -1,46 +1,20 @@
-# 🍕 Pizza Sales Analysis - SQL Project
+STAR Breakdown
+S – Situation
+A fictional pizza chain needed to understand its sales performance, customer preferences, and product profitability using historical order data.
 
-This project explores pizza sales data using **SQL queries** to extract key business insights.  
-The dataset contains information about orders, order details, pizzas, and pizza types.  
+T – Task
+Design and execute a SQL-based analytics solution to answer 12 targeted business questions related to revenue, order volume, pizza popularity, and category contributions.
 
----
+A – Action
+Created a normalized database schema with four tables: orders, order_details, pizzas, and pizza_types.
 
-##  Skills Demonstrated
-- SQL Joins  
-- Aggregations (SUM, COUNT, AVG, ROUND)  
-- Window Functions (RANK, Cumulative SUM)  
-- CTEs (Common Table Expressions)  
-- Grouping & Filtering  
-- Business-Oriented Analysis  
+Wrote SQL queries using JOIN, GROUP BY, CTE, RANK(), and SUM() OVER() to analyze total revenue, peak order hours, most popular pizza sizes, and top-selling pizza types.
 
----
+Performed time-based analysis, category-wise breakdowns, and cumulative revenue tracking.
 
-##  Business Questions Answered
+R – Result
+Analyzed 21,350 orders and calculated ₹8.17 lakh in total revenue.
 
-###  Basic Queries
-1. Total number of orders placed  
-2. Total revenue generated from pizza sales  
-3. Highest-priced pizza  
-4. Most common pizza size ordered  
-5. Top 5 most ordered pizza types  
+Identified Large pizzas as the most popular size and Thai Chicken Pizza as the top revenue generator.
 
-###  Intermediate Queries
-1. Total quantity by pizza category  
-2. Distribution of orders by hour  
-3. Category-wise distribution of pizzas  
-4. Average number of pizzas ordered per day  
-5. Top 3 most ordered pizzas based on revenue  
-
-###  Advanced Queries
-1. % Revenue contribution by pizza category  
-2. Cumulative revenue over time  
-3. Top 3 pizzas by revenue in each category  
-
----
-
-##  Tools Used
-** MySQL   
-**Dataset**: Pizza sales data with tables → orders, order_details, pizzas, pizza_types
-
-
-✨ This project demonstrates how SQL can be used to answer **real-world business questions** and generate actionable insights from raw sales data.  
+Delivered a reusable SQL portfolio project showcasing advanced querying techniques and business insight generation.
