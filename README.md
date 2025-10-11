@@ -77,7 +77,7 @@ CREATE TABLE order_details (
 ## 🚀 How to Use
 
 - **Clone the repository**  
-
+https://github.com/reddydilip207/pizza_sales_sql_project/blob/main/Pizza%20Sales%20project.sql
 
 - **Import the schema and sample data** into your SQL environment  
   ( MySQL)
