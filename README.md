@@ -18,3 +18,5 @@ Analyzed 21,350 orders and calculated ₹8.17 lakh in total revenue.
 Identified Large pizzas as the most popular size and Thai Chicken Pizza as the top revenue generator.
 
 Delivered a reusable SQL portfolio project showcasing advanced querying techniques and business insight generation.
+
+LINK : https://github.com/reddydilip207/pizza_sales_sql_project/blob/main/Pizza%20Sales%20project.sql
