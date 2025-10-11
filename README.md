@@ -6,15 +6,15 @@ and product performance. This project demonstrates practical SQL skills includin
 – **Situation** :
 -- A fictional pizza chain needed to understand its sales performance, customer preferences, and product profitability using historical order data.
 
-– ** Task Design **:
+– **Task Design**:
 -- Design and execute a SQL-based analytics solution to answer 12 targeted business questions related to revenue, order volume, pizza popularity, and category contributions.
 
-- ** Action **
+- **Action**
 -- Created a normalized database schema with four tables: orders, order_details, pizzas, and pizza_types.
 -- Wrote SQL queries using JOIN, GROUP BY, CTE, RANK(), and SUM() OVER() to analyze total revenue, peak order hours, most popular pizza sizes, and top-selling pizza types.
 -- Performed time-based analysis, category-wise breakdowns, and cumulative revenue tracking to uncover trends and performance metrics.
 
-- ** Result **
+- **Result**
 -- Analyzed 21,350 orders and calculated ₹8.17 lakh in total revenue.
 -- Identified Large pizzas as the most popular size and Thai Chicken Pizza as the top revenue generator.
 -- Delivered a reusable SQL portfolio project showcasing advanced querying techniques and actionable business insights.
@@ -58,7 +58,7 @@ CREATE TABLE order_details (
 );
 
 
-## Key Business Questions Answered ##
+**Key Business Questions Answered**
 
 -- Total number of orders placed
 -- Total revenue generated from pizza sales
@@ -74,9 +74,13 @@ CREATE TABLE order_details (
 -- Cumulative revenue generated over time
 
 
-## How to Use ##
+## 🚀 How to Use
 
--- Clone the repository
--- Import the schema and sample data into your SQL environment (MySQL)
--- Run the queries in your SQL editor to explore the insights
+- **Clone the repository**  
+
+
+- **Import the schema and sample data** into your SQL environment  
+  ( MySQL)
+
+- **Run the SQL queries** in your preferred SQL editor (MySQL Workbench) to explore insights on revenue, orders, and pizza trends
 
